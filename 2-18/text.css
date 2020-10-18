@@ -1,0 +1,17 @@
+body{
+    background-color: darkgrey;
+}
+.wrapper{
+    text-align: center;
+}
+h1{
+    color: white;
+    font-weight: 100;
+    
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
