@@ -5,17 +5,6 @@ $port_answer = $_POST['port'];
 $word_answer = $_POST['word'];
 $mysql_answer = $_POST['mysql'];
 $answers = $_POST['answer'];
-// var_dump($answers);
-
-//選択した回答と正解が一致していれば「正解！」、一致していなければ「残念・・・」と出力される処理を組んだ関数を作成する
-// function getAnswer($answer){
-//   if($answer === $answers[0]){
-//       echo '正解';
-//   }else{
-//       echo '不正解';
-//   }
-// }
-// getAnswer($port_answer);
 
     ?>
 
