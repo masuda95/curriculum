@@ -7,9 +7,13 @@ for($i=1;$i <= 40;$i++){
         $total += $number;
         echo $i.'回目='.$number;
         echo '<br>';
+    }
+    if($total>=40){
+        break;
+    }
 }
-
-}
+echo '合計'.$i.'回でゴールしました';
+echo '<br>';
 echo '<br>';
 
 date_default_timezone_set('Asia/Tokyo');
