@@ -6,7 +6,7 @@ $ports = [80,22,20,21];
 $words = ['PHP','Pyhon','JAVA','HTML'];
 $mysqls = ['join','select','insert','update'];
 //② ①で作成した、配列から正解の選択肢の変数を作成してください
-$answer = [$ports[0],$words[0],$mysqls[0]];
+$answer = [$ports[0],$words[0],$mysqls[1]];
 ?>
 <!DOCTYPE html>
 <html lang="ja">
